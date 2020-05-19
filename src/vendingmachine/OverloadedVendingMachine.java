@@ -18,22 +18,51 @@ public class OverloadedVendingMachine extends Product {
         this.chocolatesQty = chocolatesQty;
     }
 
-    void buy(Chocolate chocolate) {
+    public void buy(Chocolate chocolate) {
         this.chocolatesQty--;
     }
 
-    void buy(SaltySnack saltySnack) {
+    public void buy(SaltySnack saltySnack) {
         this.saltySnackQty--;
     }
 
-    void buy(SoftDrink softDrink) {
+    public void buy(SoftDrink softDrink) {
         this.softDrinkQty--;
     }
 
-    void buy(Product product) {
+    public void buy(Product product) {
         this.chocolatesQty--;
         this.saltySnackQty--;
         this.softDrinkQty--;
     }
 
+    public void addProduct(Chocolate chocolate) {
+        this.chocolatesQty++;
+    }
+
+    public void addProduct(SaltySnack saltySnack) {
+        this.saltySnackQty++;
+    }
+
+    public void addProduct(SoftDrink softDrink) {
+        this.softDrinkQty++;
+    }
+
+    public void addProduct(Product product) {
+        this.chocolatesQty++;
+        this.saltySnackQty++;
+        this.softDrinkQty++;
+    }
+
+    public int getSoftDrinkQty() {
+        return softDrinkQty;
+    }
+
+    public int getSaltySnackQty() {
+        return saltySnackQty;
+    }
+
+    public int getChocolatesQty() {
+        return chocolatesQty;
+    }
 }
