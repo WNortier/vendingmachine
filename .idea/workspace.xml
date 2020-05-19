@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b26817c-9bba-4327-94d9-64a18a346d43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/OverloadedVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vendingmachine/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/products/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/products/SaltySnack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/products/SoftDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendingmachine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/OverloadedVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/OverloadedVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendingmachine/Product.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,5 +47,11 @@
       <updated>1589876495963</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="803" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1589878637461">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="803" y="266" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589878637461" />
   </component>
 </project>
