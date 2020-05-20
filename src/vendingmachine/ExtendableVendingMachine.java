@@ -12,18 +12,18 @@ public class ExtendableVendingMachine extends Product {
     int softDrinkQty;
 
     public ExtendableVendingMachine(int softDrinkQty, int saltySnacksQty, int chocolatesQty) {
-        this.saltySnackQty++;
-        this.chocolateQty++;
-        this.softDrinkQty++;
+        this.saltySnackQty = saltySnacksQty;
+        this.chocolateQty = chocolatesQty;
+        this.softDrinkQty = softDrinkQty;
     }
 
     public void buy (Product product) {
         if (product instanceof SaltySnack){
-            this.saltySnackQty++;
+            this.saltySnackQty--;
         } else if (product instanceof Chocolate){
-            this.chocolateQty++;
+            this.chocolateQty--;
         } else if (product instanceof SoftDrink) {
-            this.softDrinkQty++;
+            this.softDrinkQty--;
         }
     }
 
