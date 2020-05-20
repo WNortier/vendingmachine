@@ -11,8 +11,8 @@ public class SoftDrink extends Product {
 //        super.
 //    }
 //
-//    @Override
-//    public String description() {
-//        return "A highly carbonated soft drink";
-//    }
+    @Override
+    public String description() {
+        return "A highly carbonated soft drink";
+    }
 }

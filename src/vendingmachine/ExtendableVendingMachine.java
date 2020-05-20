@@ -17,25 +17,57 @@ public class ExtendableVendingMachine extends Product {
         this.softDrinkQty = softDrinkQty;
     }
 
-    public void buy (Product product) {
-        if (product instanceof SaltySnack){
+    public void buy(Product product) {
+        if (product instanceof SaltySnack) {
             this.saltySnackQty--;
-        } else if (product instanceof Chocolate){
+        } else if (product instanceof Chocolate) {
             this.chocolateQty--;
         } else if (product instanceof SoftDrink) {
             this.softDrinkQty--;
         }
     }
 
-    public int getSaltySnackQty() {
-        return saltySnackQty;
+    public void buy(Product product, int amount) {
+        if (product instanceof SaltySnack) {
+            this.saltySnackQty -= amount;
+        } else if (product instanceof Chocolate) {
+            this.chocolateQty -= amount;
+        } else if (product instanceof SoftDrink) {
+            this.softDrinkQty -= amount;
+        }
     }
 
-    public int getChocolateQty() {
-        return chocolateQty;
+    public void addProduct(Product product, int amount) {
+        if (product instanceof SaltySnack) {
+            this.saltySnackQty += amount;
+        } else if (product instanceof Chocolate) {
+            this.chocolateQty += amount;
+        } else if (product instanceof SoftDrink) {
+            this.softDrinkQty += amount;
+        }
     }
 
-    public int getSoftDrinkQty() {
-        return softDrinkQty;
+    public void addProduct(Product product) {
+        if (product instanceof SaltySnack) {
+            this.saltySnackQty++;
+        } else if (product instanceof Chocolate) {
+            this.chocolateQty++;
+        } else if (product instanceof SoftDrink) {
+            this.softDrinkQty++;
+        }
+    }
+
+    public int getStock(Product product) {
+        int stockLevel = 0;
+        if (product instanceof SaltySnack) {
+            stockLevel = this.saltySnackQty;
+        } else if (product instanceof Chocolate) {
+            stockLevel = this.chocolateQty;
+        } else if (product instanceof SoftDrink) {
+            stockLevel = this.softDrinkQty;
+        } else if (product instanceof Product) {
+            stockLevel = this.saltySnackQty + this.chocolateQty + this.softDrinkQty;
+        }
+        return stockLevel;
     }
 }
