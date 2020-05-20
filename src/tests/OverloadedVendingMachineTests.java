@@ -8,7 +8,7 @@ import vendingmachine.products.SoftDrink;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class ProductTest {
+public class OverloadedVendingMachineTests {
 
     @Test
     public void shouldBuySoftDrink() {

@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b26817c-9bba-4327-94d9-64a18a346d43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/vendingmachine/products/Bubblegum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/tests/ExtendableVendingMachineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/tests/ExtendableVendingMachineTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/vendingmachine/ExtendableVendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/vendingmachine/ExtendableVendingMachine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/vendingmachine/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/vendingmachine/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/vendingmachine/products/SoftDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/overloaded-vendingmachine/vendingmachine/products/SoftDrink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ExtendableVendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ExtendableVendingMachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ExtendableVendingMachineAddStockTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ExtendableVendingMachineAddStockTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ExtendableVendingMachineBuyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ExtendableVendingMachineBuyTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vendingmachine/ExtendableVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/ExtendableVendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vendingmachine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendingmachine/products/SoftDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendingmachine/products/SoftDrink.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendableVendingMachineBuyTests.should_Be_Able_To_Buy_From_Extendable_Vending_Machine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtendableVendingMachineBuyTests.should_Be_Able_To_Buy_Bubblegum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="overloaded-vendingmachine" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ExtendableVendingMachineBuyTests" />
-      <option name="METHOD_NAME" value="should_Be_Able_To_Buy_From_Extendable_Vending_Machine" />
+      <option name="METHOD_NAME" value="should_Be_Able_To_Buy_Bubblegum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,9 +120,9 @@
       <list>
         <item itemvalue="JUnit.ExtendableVendingMachineAddStockTests" />
         <item itemvalue="JUnit.ExtendableVendingMachineBuyTests" />
+        <item itemvalue="JUnit.ExtendableVendingMachineBuyTests.should_Be_Able_To_Buy_Bubblegum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ExtendableVendingMachineBuyTests.should_Be_Able_To_Buy_SoftDrink_From_Extendable_Vending_Machine" />
-        <item itemvalue="JUnit.ExtendableVendingMachineBuyTests.should_Be_Able_To_Buy_From_Extendable_Vending_Machine" />
       </list>
     </recent_temporary>
   </component>
@@ -153,22 +152,22 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="778" y="270" width="424" height="574" key="FileChooserDialogImpl/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589890424299" />
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1589977332240">
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1589979902208">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589977332240" />
-    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1589977332240">
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589979902208" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1589979902208">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589977332240" />
-    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1589977332240">
+    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589979902208" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1589979902208">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589977332240" />
-    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1589977332240">
+    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589979902208" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1589979902208">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589977332240" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/1920.0.1600.900@70.27.1850.1053" timestamp="1589979902208" />
     <state x="580" y="208" width="1053" height="698" key="NewModule_or_Project.wizard" timestamp="1589890433357">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

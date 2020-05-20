@@ -1,9 +1,8 @@
 package vendingmachine.products;
 
-public class Chocolate extends Product {
-
+public class Bubblegum extends Product {
     @Override
     public String description() {
-        return "A very sweet chocolate";
+        return "A bubbly bubblegum";
     }
 }
